@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="top-header">
+  <header class="top-header top-header--transparent">
     <div class="header_top">
       <div class="header_column">
         <i class="fab fa-telegram-plane"></i>
@@ -21,38 +21,45 @@
       <div class="header_column">
         <i class="far fa-moon"></i>
         <i class="fab fa-bluetooth-b"></i>
-        <sapn class="header_battery">66% <i class="fas fa-battery-three-quarters"></i></sapn>
+        <sapn class="header_battery">79% <i class="fas fa-battery-three-quarters"></i></sapn>
       </div>
     </div>
     <div class="header_bottom">
       <div class="header_column">
         <a href="index.html">
-          <i class="fas fa-times fa-lg"></i>
+          <i class="fas fa-times"></i>
         </a>
       </div>
       <div class="header_column">
-        <i class="fas fa-user-circle"></i>
+
+      </div>
+      <div class="header_column">
+        <i class="fas fa-user-circle fa-lg"></i>
       </div>
     </div>
   </header>
   <main class="profile">
     <header class="profile_header">
-      <img src="images/avatar.jpg" alt="">
-      <h3 class="profile_header-title">Jieon</h3>
-    </header>
-    <input type="text" placeholder="lemonyello@naver.com">
-    <div class="profile_actions">
-      <div class="profile_action">
-        <span class="profile_action-circle">
-          <i class="fas fa-comment fa-2x"></i>
-        </span>
-        <span class="profile_action-title">My Chatroom</span>
+      <div class="profile_header-container">
+        <img src="images/avatar.jpg" alt="">
+        <h3 class="profile_header-title">Jieon</h3>
       </div>
-      <div class="profile_action">
-        <span class="profile_action-circle">
-          <i class="fas fa-pencil-alt fa-2x"></i>
-        </span>
-        <span class="profile_action-title">Edit Profile</span>
+    </header>
+    <div class="profile_container">
+      <input type="text" placeholder="lemonyello@naver.com">
+      <div class="profile_actions">
+        <div class="profile_action">
+          <span class="profile_action-circle">
+            <i class="fas fa-comment fa-2x"></i>
+          </span>
+          <span class="profile_action-title">My Chatroom</span>
+        </div>
+        <div class="profile_action">
+          <span class="profile_action-circle">
+            <i class="fas fa-pencil-alt fa-2x"></i>
+          </span>
+          <span class="profile_action-title">Edit Profile</span>
+        </div>
       </div>
     </div>
   </main>
